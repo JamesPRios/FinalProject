@@ -1,1 +1,3 @@
-# FINAL-AA-CS
+- This a Final Proejct for the first quarter on modules 2,3,4, and 5.
+- This lab activity is about CSS
+- https://github.com/JamesPRios/FINAL-AA-CS
