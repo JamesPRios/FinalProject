@@ -69,7 +69,14 @@ a:hover {
     width: 250px;
     float: right;
     margin-bottom: 20px;
-}
+    color:red;
+    
+        
+        
+}     
+        
+       
+
 
 .ye {
     margin-top: 10%;
@@ -104,6 +111,12 @@ a:hover {
 .yr {
     color: yellow;
     margin-top: 3%;
+}
+.arrw {
+    font-size: 30px;
+    color: red;
+
+
 }
 
 
