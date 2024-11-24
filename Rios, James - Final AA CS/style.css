@@ -65,15 +65,23 @@ a:hover {
 }
 
 .yeah {
-    height: 200px;
-    width: 250px;
     float: right;
-    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;
+    margin: 0 0 20px 20px;
     color:red;
-    
-        
-        
-}     
+}
+
+.yeah img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.yeah figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
         
        
 
@@ -118,5 +126,4 @@ a:hover {
 
 
 }
-
 
