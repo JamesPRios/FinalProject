@@ -82,7 +82,10 @@ a:hover {
     height: 200px;
     width:400px;
     float:right;
-    
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function:ease-out;
+
     
     
     margin-bottom: 50px;
@@ -118,4 +121,8 @@ a:hover {
     color: yellow;
     margin-top:5%;
 }
-.ya{float:right;}
+.ya{float:left;}
+
+.yeah:hover{
+    transform:matrix(2,0,0,2,-250,0)
+}
