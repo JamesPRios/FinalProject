@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(/images/pexels-didsss-2675047.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+    background-color: transparent;
+}
+
+.title-logo {
+    font-size: 1.5em; 
+    border: 3px solid blueviolet; 
+    border-radius: 20px; 
+    padding: 10px; 
+    color: orange; 
+    
+background-color:transparent;}
+    
+
+.nav-links ul {
+    list-style-type: none; 
+    display: flex; 
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none; 
+    color: cyan; 
+    font-weight: bold; 
+    transition: background-color 0.3s; 
+}
+
+a:hover {
+    background-color: #7b7b7b;
+}
+
+.arrow {
+    font-size: 40px;
+    color: yellow;
+}
+
+.bek {
+    margin-left: 50px;
+    color: white;
+    margin-right:10%;
+}
+
+.bek::before {
+    content: "•";
+}
+
+.yeah {
+    float: right;
+    width: 400px;
+    text-align: center;
+    margin: 0 0 20
+px 20px;
+    color:red;
+    transition: transform 1s ease-out;
+    margin-bottom: 50px;
+}
+
+
+.yeah img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.yeah figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+        
+       
+
+
+.ye {
+    margin-top: 10%;
+    color: yellow;
+   
+}
+
+.email {
+    color: orange;
+    text-decoration: underline;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.email::before {
+    content: "•";
+}
+
+.cool {
+    color: orange;
+    text-decoration: underline;
+    display: block;
+    margin-left: 50px;
+    padding: 0;
+    margin-top:10px;
+}
+
+.cool::before {
+    content: "•";
+}
+
+.yr {
+    color: yellow;
+    margin-top: 3%;
+}
+.arrw {
+    font-size: 30px;
+    color: red;
+
+
+}
+nav li:hover {
+    transform: scale(1.1); 
+}
+.yeah:hover {
+    transform: matrix(2, 0, 0, 2, -250, 0);
+}
+
